@@ -1,6 +1,6 @@
 {
     "name": "pretty-box",
-    "version": "1.0.0",
+    "version": "1.0.1",
     "description": "A simple tool, which prints a sweet boxes with text to your console",
     "keywords": [
         "node",

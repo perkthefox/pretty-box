@@ -76,7 +76,7 @@ export default class PrettyBox {
 
         return stringLength(
             lines.reduce(
-                (accumulator, value) => (value.length > accumulator.length ? value : accumulator), this._lines[0] || ''
+                (accumulator, value) => (stringLength(value) > stringLength(accumulator) ? value : accumulator), this._lines[0] || ''
             )
         );
     }

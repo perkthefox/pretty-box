@@ -58,7 +58,7 @@ var PrettyBox = (function () {
     };
     PrettyBox.prototype.getMaxLength = function () {
         var lines = this._lines.filter(function (string) { return typeof string === 'string'; });
-        return string_length_1.default(lines.reduce(function (accumulator, value) { return (value.length > accumulator.length ? value : accumulator); }, this._lines[0] || ''));
+        return string_length_1.default(lines.reduce(function (accumulator, value) { return (string_length_1.default(value) > string_length_1.default(accumulator) ? value : accumulator); }, this._lines[0] || ''));
     };
     PrettyBox.prototype.checkPaddingValue = function (number) {
         if (typeof number !== 'number') {
