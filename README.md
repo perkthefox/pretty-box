@@ -1,7 +1,7 @@
 # Pretty Box
-![NPM Downloads](https://img.shields.io/npm/dw/pretty-box)
-![NPM License](https://img.shields.io/npm/pretty-box)
-![NPM Size](https://badgen.net/npm/dt/pretty-box)
+![NPM Version](https://badgen.net/npm/v/pretty-box)
+![NPM License](https://badgen.net/npm/license/lodash)
+![NPM Downloads](https://badgen.net/npm/dt/pretty-box)
 
 A simple tool, which prints a sweet boxes with text to your console
 
