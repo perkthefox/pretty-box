@@ -1,7 +1,6 @@
 # Pretty Box
 ![NPM Version](https://badgen.net/npm/v/pretty-box)
 ![NPM License](https://badgen.net/npm/license/lodash)
-![NPM Downloads](https://badgen.net/npm/dt/pretty-box)
 
 A simple tool, which prints a sweet boxes with text to your console
 
