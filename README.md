@@ -1,5 +1,4 @@
 # Pretty Box
-___
 A simple tool, which prints a sweet boxes with text to your console
 
 - [PrettyBox](#pretty-box)
