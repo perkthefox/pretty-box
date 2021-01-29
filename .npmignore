@@ -2,4 +2,6 @@
 .DS_Store
 .npmrc
 src
+.gitignore
+.tsconfig.json
 
