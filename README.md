@@ -24,19 +24,19 @@ yarn add pretty-box
 ```
 
 ## Usage
-___
+
 >In the examples below, the `print` method will output the configured box in the console
 
 If you're using a ES5 (CommonJS) syntax, you can use this tool, by adding a `.default` to the `require('pretty-box')`
 
 ![carbon](https://user-images.githubusercontent.com/36232649/106245175-1cb30500-621d-11eb-9cd9-880f3ab78294.png)
 
-Otherwise, you're familiar with ES6 Import syntax (which is highly recommended nowadays), fell free to use it
+Otherwise, if you're familiar with ES6 Import syntax (which is highly recommended nowadays), feel free to use it like so
 
 ![carbon (1)](https://user-images.githubusercontent.com/36232649/106245357-5edc4680-621d-11eb-9735-6f7f58f92163.png)
 
 ### Configure Output
-You can simply configure the default look of a printed box, by calling the following methods:
+You can simply configure the default look of a printed box by calling the following methods:
 - `setVerticalPadding(value: number): void`
   
   By calling the following method of a PrettyBox instance, you can set the amount of empty lines, which will be printed **before** the first line of text and **after** the last line of text (default is 1).
