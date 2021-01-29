@@ -10,6 +10,11 @@
         "pretty",
         "print"
     ],
+    "scripts": {
+        "build": "tsc -p ./tsconfig.json",
+        "version": "yarn run build && git add -A .",
+        "postversion": "git push && git push --tags"
+    },
     "main": "./dist/index.js",
     "types": "./dist/index.d.ts",
     "repository": "https://github.com/perkthefox/pretty-box",
